@@ -1,0 +1,320 @@
+Instituto Politécnico do Cávado e do Ave
+
+Projeto de Computação Móveis
+
+Projeto de Computação Móvel (PCM)
+Curso de Aplicações Móveis — Polo de Guimarães
+Ano letivo 2025/2026
+
+1. Objetivos
+Esta unidade curricular promove a integração dos conhecimentos adquiridos nas várias
+disciplinas do segundo semestre, através do desenvolvimento de um projeto comum, com
+enfoque na análise, conceção, implementação e avaliação de uma solução digital completa.
+Pretende-se que os estudantes consolidem competências técnicas e transversais, nomeadamente ao nível do trabalho em equipa, organização do desenvolvimento, articulação
+entre diferentes áreas tecnológicas, comunicação e tomada de decisão fundamentada.
+Em função dos objetivos de cada equipa, deverão ser evidenciados:
+1. Integração e colaboração no trabalho de equipa;
+2. Planeamento e distribuição de tarefas;
+3. Aplicação articulada de conhecimentos de UX/UI, desenvolvimento móvel, bases de
+dados, APIs e estatística;
+4. Capacidade de conceber e implementar uma solução digital funcional;
+5. Reflexão crítica sobre o processo de desenvolvimento e sobre os resultados obtidos.
+
+2. Funcionamento
+As aulas têm natureza prática e orientam-se para o desenvolvimento incremental de
+uma solução digital integrada. O trabalho é desenvolvido em grupo, com acompanhamento
+dos docentes das diferentes áreas envolvidas.
+Cada equipa deverá organizar o trabalho de forma contínua ao longo do semestre,
+promovendo a articulação entre análise, prototipagem, implementação, testes e apresentação
+de resultados.
+As questões específicas de cada componente técnica deverão ser tratadas com os docentes
+das respetivas unidades curriculares, sem prejuízo da visão global e integrada do projeto.
+
+3. Equipa Docente
+• Jorge Barbosa (jbarbosa@ipca.pt)
+• Sergio Gonçalves (smcgoncalves@ipca.pt)
+• Marta Martinho (mmartinho@ipca.pt)
+1
+
+Instituto Politécnico do Cávado e do Ave
+
+Projeto de Computação Móveis
+
+• Luís Lobo (llobo@ipca.pt)
+• Graça Miranda (gmiranda@ipca.pt)
+
+4. Avaliação
+A aprovação é obtida com nota final ≥ 10 valores, resultante das seguintes componentes.
+Não há aprovação ou melhoria em época de exame.
+
+Componente
+
+Peso
+
+Descrição / Observações
+
+Documentação do projeto
+
+20%
+
+Documento de projeto: análise, requisitos, fluxos de utilizador, wireframes/protótipos, modelo de dados, arquitetura da solução, relatório
+final e materiais de apoio à apresentação. (*)
+
+Solução implementada
+
+50%
+
+Funcionalidade global da solução, integração
+entre aplicação móvel em Flutter, API em C#,
+base de dados em SQL Server e componente
+de indicadores/dashboards; organização do código, correção técnica, validação de dados, clareza, robustez e adequação às boas práticas
+das tecnologias utilizadas. (*)
+
+Apresentação final do projeto
+
+20%
+
+Estrutura e narrativa; demonstração funcional da solução (cenários-chave, correção, integração entre componentes e robustez); qualidade dos materiais de apoio (slides/poster/protótipo/dashboard) e comunicação; gestão do tempo e coordenação da equipa.
+As respostas a questões contam na defesa individual.
+
+Defesa individual
+
+10%
+
+Domínio técnico, comunicação e justificação
+das decisões de análise, design, implementação
+e integração na apresentação/arguição. (*)
+
+Notas: (*) nota mínima de 10 valores.
+
+5. Entregas e Prazos
+Entrega intermédia I (11 de abril de 2026) — análise, UX e modelo de dados
+A primeira entrega intermédia destina-se à validação da proposta de solução ao nível
+funcional, da experiência do utilizador e da estrutura de dados.
+
+2
+
+Instituto Politécnico do Cávado e do Ave
+
+Projeto de Computação Móveis
+
+Documentação (PDF único).
+• Enquadramento e objetivos da solução;
+• Perfis de utilizador (personas) e necessidades identificadas;
+• Fluxos de utilização (user flows);
+• Requisitos funcionais e não funcionais atualizados;
+• Wireframes ou protótipos iniciais;
+• Modelo de dados relacional / Diagrama entidade-relação, ou equivalente;
+• Planeamento do desenvolvimento.
+Entregáveis técnicos.
+• Protótipo inicial das interfaces;
+• Script inicial da base de dados;
+• Estrutura preliminar dos módulos do projeto.
+Submissão.
+• Moodle: PDF da documentação e ficheiros complementares em .zip;
+• Nomenclatura recomendada: PI_2025AM_GrupoXX_entrega1.zip
+Entrega intermédia II (07 de junho de 2026) — backend e protótipo funcional
+A segunda entrega intermédia destina-se à validação da arquitetura técnica e da
+comunicação entre os vários componentes do sistema.
+Documentação (PDF único).
+• Atualização dos artefactos anteriores;
+• Descrição da arquitetura da solução;
+• Endpoints principais da API;
+• Mapeamento entre aplicação, API e base de dados;
+• Definição formal dos indicadores estatísticos a implementar.
+
+3
+
+Instituto Politécnico do Cávado e do Ave
+
+Projeto de Computação Móveis
+
+Entregáveis técnicos.
+• API REST com funcionalidades essenciais implementadas;
+• Base de dados funcional com dados de teste;
+• Aplicação Flutter com navegação principal e integração parcial com a API;
+• Versão preliminar do dashboard, ou estrutura dos indicadores.
+Submissão.
+• Moodle: ficheiro .zip com código e documentação;
+• Nomenclatura recomendada: PI_2025AM_GrupoXX_entrega2.zip
+Entrega final (18 de junho de 2026)
+A entrega final deve incluir o sistema integrado, com todos os componentes articulados
+e devidamente documentados. A data e hora-limite serão publicadas no Moodle.
+Conteúdo.
+• Documentação final do projeto (PDF);
+• Protótipo UX/UI final;
+• Aplicação móvel em Flutter;
+• API REST em C#;
+• Base de dados SQL Server com scripts de criação e povoamento;
+• Dashboard com indicadores estatísticos;
+• Apresentação final;
+• Guia de instalação e execução no README.md;
+• Registo de alterações desde as entregas intermédias.
+Submissão.
+• Moodle: ficheiro .zip único com todo o material;
+• Nomenclatura recomendada: PI_2025AM_GrupoXX_final.zip
+
+4
+
+Instituto Politécnico do Cávado e do Ave
+
+Projeto de Computação Móveis
+
+Critérios de aceitação.
+• O sistema deve executar de acordo com as instruções fornecidas;
+• Os diferentes componentes devem apresentar coerência funcional e técnica;
+• O conteúdo submetido deve corresponder ao apresentado e defendido;
+• Aplicam-se as regras de prazos e integridade académica publicadas no Moodle e no
+regulamento do IPCA.
+
+6. Desenvolvimento e Boas Práticas
+Recomenda-se a utilização de metodologias ágeis para planeamento e acompanhamento
+do trabalho, bem como o uso de ferramentas colaborativas para gestão de tarefas e
+documentação.
+O desenvolvimento deverá evidenciar:
+• organização do projeto por módulos e componentes;
+• separação clara entre interface, lógica de negócio, API e persistência;
+• código legível, comentado e coerente com boas práticas;
+• validação de dados e tratamento de erros;
+• preocupação com a usabilidade, acessibilidade e consistência visual;
+• utilização de dados de teste relevantes;
+• capacidade de integração entre as diferentes tecnologias utilizadas.
+
+7. Conduta Ética
+São proibidas práticas de plágio, cópia ou reutilização indevida de trabalho de outros
+grupos.
+A deteção de artefactos ou código substancialmente idênticos entre grupos implicará a
+atribuição de 0 (zero) valores aos elementos envolvidos, sem prejuízo de outras consequências
+previstas no regulamento aplicável.
+A transparência, a autoria efetiva do trabalho desenvolvido e a integridade académica
+são obrigatórias em todas as fases do projeto.
+
+8. Tema do Projeto
+Este ponto descreve o problema a resolver e o âmbito funcional do projeto. As entregas
+e os respetivos momentos de submissão encontram-se definidos na Secção 5.
+
+5
+
+Instituto Politécnico do Cávado e do Ave
+
+Projeto de Computação Móveis
+
+8.1 Contexto
+Nos últimos anos, têm sido frequentes os pedidos de alunos que procuram formas de
+trocar, emprestar ou doar livros escolares e técnicos entre si. Atualmente, essas interações
+realizam-se de forma informal, recorrendo frequentemente a redes sociais ou contactos
+diretos, o que dificulta a organização do processo, reduz a confiança entre os intervenientes
+e impede o registo estruturado das transações efetuadas.
+Pretende-se, assim, evoluir este conceito para uma solução digital integrada, centrada
+no utilizador, que permita gerir de forma simples, organizada e segura a disponibilização e
+circulação de livros no contexto académico.
+8.2 Objetivo Geral
+O objetivo do projeto consiste em desenvolver uma plataforma digital que permita:
+• divulgar livros para troca, empréstimo ou doação;
+• pesquisar livros por curso, unidade curricular, categoria, autor ou estado;
+• registar e acompanhar pedidos;
+• manter histórico de interações;
+• disponibilizar indicadores estatísticos sobre a utilização do sistema.
+A solução deverá materializar-se através de uma aplicação móvel, suportada por uma
+API e por uma base de dados relacional, e deverá ser concebida com base em princípios de
+UX/UI e análise estatística.
+8.3 Estrutura do Trabalho
+O trabalho deve seguir um processo integrado de análise, conceção, implementação
+e avaliação, articulando os conteúdos desenvolvidos nas várias unidades curriculares do
+semestre.
+8.3.1 Design de Interfaces e Experiência do Utilizador
+O grupo deverá estudar os utilizadores-alvo, identificar necessidades, desenhar fluxos
+de utilização e desenvolver soluções de interface coerentes com princípios de usabilidade,
+acessibilidade e consistência visual.
+Devem ser produzidos, no mínimo:
+• perfis de utilizador ou personas;
+• mapas de navegação;
+• wireframes;
+• protótipos digitais das principais interfaces;
+• justificação das opções de design adotadas.
+6
+
+Instituto Politécnico do Cávado e do Ave
+
+Projeto de Computação Móveis
+
+8.3.2 Aplicação Móvel
+A solução deverá incluir uma aplicação móvel desenvolvida em Flutter (Dart), com
+ecrãs e fluxos adequados às funcionalidades definidas. A aplicação deverá comunicar com
+a API e permitir a realização das operações nucleares do sistema.
+8.3.3 Base de Dados
+A persistência da informação deverá ser assegurada através de uma base de dados
+relacional em SQL Server. O grupo deverá definir o modelo de dados, as entidades,
+atributos, relações, restrições e regras de integridade necessárias ao funcionamento do
+sistema.
+Devem ainda ser incluídos:
+• script de criação da base de dados;
+• script de inserção de dados de teste;
+• consultas SQL relevantes;
+• evidências da coerência entre modelo conceptual e modelo lógico.
+8.3.4 API em C#
+A comunicação entre a aplicação móvel e a base de dados deverá ser realizada através de
+uma API REST em C#. A API deverá disponibilizar os recursos e operações essenciais
+ao funcionamento do sistema, assegurando validação de dados, tratamento de erros e
+organização adequada da lógica do projeto.
+8.3.5 Estatística e Dashboard
+Com base nos dados gerados pela utilização da plataforma, o grupo deverá definir,
+calcular e apresentar indicadores estatísticos relevantes sobre o sistema.
+Exemplos de indicadores possíveis:
+• número de livros registados por categoria;
+• número de utilizadores ativos;
+• percentagem de pedidos concluídos;
+• tempo médio de resposta;
+• taxa de sucesso de empréstimos, trocas ou doações;
+• distribuição temporal da atividade;
+• média de livros disponibilizados por utilizador.
+Estes indicadores deverão ser apresentados num dashboard claro, coerente e interpretado.
+7
+
+Instituto Politécnico do Cávado e do Ave
+
+Projeto de Computação Móveis
+
+8.3.6 Integração da Solução
+A proposta final deverá evidenciar a integração entre:
+• a conceção UX/UI;
+• a aplicação móvel;
+• a API;
+• a base de dados;
+• o módulo analítico e estatístico.
+O sistema deve funcionar como um produto digital coerente, e não como um conjunto
+de componentes isolados.
+8.4 Funcionalidades mínimas
+O sistema deverá contemplar, no mínimo, as seguintes funcionalidades:
+• registo e consulta de utilizadores;
+• registo, edição e listagem de livros;
+• pesquisa e filtragem de livros;
+• criação e gestão de pedidos;
+• atualização do estado das transações;
+• histórico de interações;
+• visualização de indicadores estatísticos.
+8.5 Conclusão e Reflexão
+O grupo deverá apresentar uma reflexão final sobre o processo de desenvolvimento,
+evidenciando as aprendizagens realizadas, os principais desafios encontrados, a articulação
+entre as diferentes áreas do semestre e a evolução do projeto desde a fase conceptual até à
+solução final implementada.
+8.6 Observações
+• Cada grupo deverá trabalhar de forma autónoma, podendo consultar os docentes
+para esclarecimento de dúvidas e validação de opções técnicas;
+• Não existe uma solução única; serão valorizadas a criatividade, a coerência global, a
+qualidade técnica e a fundamentação das decisões;
+• A solução deverá evidenciar integração entre as diferentes unidades curriculares do
+semestre;
+8
+
+Instituto Politécnico do Cávado e do Ave
+
+Projeto de Computação Móveis
+
+• Serão valorizadas propostas que demonstrem preocupação com a experiência do
+utilizador, robustez técnica e interpretação crítica dos dados.
+
+Braga, 10 de março de 2026
+9
+
+
