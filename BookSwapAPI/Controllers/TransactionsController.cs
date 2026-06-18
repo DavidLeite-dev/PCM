@@ -52,7 +52,7 @@ public class TransactionsController : ControllerBase
             // Verify book exists and belongs to receiver
             var userBook = await _context.UserBooks
                 .Include(ub => ub.Book)
-                .FirstOrDefaultAsync(ub => ub.UserId == receiver.Id && ub.ISBN == request.BookISBN);
+                .FirstOrDefaultAsync(ub => ub.UserId == receiver.Id && ub.ISBN == request.BookISBN && ub.IsActive && ub.Available);
 
             if (userBook == null)
             {
@@ -390,6 +390,7 @@ public class TransactionsController : ControllerBase
                 if (ownerBook != null)
                 {
                     ownerBook.Emprestado = true;
+                    ownerBook.Available = false;
                     transaction.Status = "Aceita";
 
                     if (transaction.UserBookId.HasValue)
@@ -680,7 +681,10 @@ public class TransactionsController : ControllerBase
                 .FirstOrDefaultAsync(ub => ub.UserId == transaction.ReceiverId && ub.Id == transaction.UserBookId && ub.Emprestado);
 
             if (ownerBook != null)
+            {
                 ownerBook.Emprestado = false;
+                ownerBook.Available = true;
+            }
 
             transaction.Status = "Confirmada";
             transaction.UpdatedAt = DateTime.UtcNow;
@@ -791,10 +795,9 @@ public class TransactionsController : ControllerBase
 
     private async Task CancelPendingTransactionsForUserBook(int userBookId, int ownerId, int exceptTransactionId)
     {
-        // Cancel all pending transactions that reference this exact UserBook and were initiated by the given owner
+        // Cancel all other pending transactions that reference this exact UserBook
         var pendingTransactions = await _context.Transactions
             .Where(t => t.UserBookId == userBookId &&
-                       t.SenderId == ownerId &&
                        t.Status == "Pendente" &&
                        t.Id != exceptTransactionId)
             .ToListAsync();

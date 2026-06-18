@@ -9,6 +9,7 @@ SET NOCOUNT ON;
 
 BEGIN TRANSACTION;
 
+
 -- Drop dependents first (FK order)
 IF OBJECT_ID('dbo.Messages','U') IS NOT NULL DROP TABLE dbo.Messages;
 IF OBJECT_ID('dbo.Conversations','U') IS NOT NULL DROP TABLE dbo.Conversations;
@@ -21,7 +22,6 @@ IF OBJECT_ID('dbo.Authors','U') IS NOT NULL DROP TABLE dbo.Authors;
 IF OBJECT_ID('dbo.Categories','U') IS NOT NULL DROP TABLE dbo.Categories;
 IF OBJECT_ID('dbo.AuthTokens','U') IS NOT NULL DROP TABLE dbo.AuthTokens;
 IF OBJECT_ID('dbo.AppSettings','U') IS NOT NULL DROP TABLE dbo.AppSettings;
-
 -- ── AuthTokens ──────────────────────────────────────────────────────────────
 CREATE TABLE dbo.AuthTokens (
     Id INT IDENTITY(1,1) PRIMARY KEY,
